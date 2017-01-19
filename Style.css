@@ -1,0 +1,201 @@
+.flex-container
+{
+	
+}
+.content
+{
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: row;
+
+}
+
+
+.menu
+{
+	width: 100%;
+	background-image: url(http://www.solidbackgrounds.com/images/950x350/950x350-fern-green-solid-color-background.jpg);
+	background-size: 100%;
+	padding: 1% 0% 3% 0%;
+}
+.menuItems
+{
+	position: relative;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin-right: 15%;
+	margin-left: 10%;
+}
+
+.menuOptions
+{
+	display: none;
+	background-image: url(http://www.solidbackgrounds.com/images/950x350/950x350-fern-green-solid-color-background.jpg);
+	border-style: solid;
+	z-index: +1;
+}
+
+.menuItem
+{
+	height: 35px;
+	margin-left: 2%;
+
+}
+.menuItem:hover
+{
+	opacity: 0.7;
+}
+
+.menuItem:hover nav
+{
+	display:block;
+}
+.menuItem:hover .menuOptions
+{
+	display:block;
+}
+
+
+
+
+
+
+
+
+h1
+{
+	margin: 2% 0% 0% 20%;
+	color: rgba(255, 255, 255, 1);
+}
+footer
+{
+	font-size: 75%;
+	position: absolute;
+	bottom: 0px; right: 0px;
+}
+body
+{
+	margin: 0px;
+	background-image: url(http://www.solidbackgrounds.com/images/950x350/950x350-tea-green-solid-color-background.jpg);
+}a
+{
+	text-decoration: none;
+	color: white;
+	border-radius: 10px;
+}
+a:hover
+{
+	color: white;
+}
+*
+{
+	font-family: sans-serif;
+}
+
+header
+{
+	padding: 10px 15px;
+	background-color: rgba(204, 255, 204, 0.5);
+	border-radius: 10px;
+	font-size: 80%;
+	box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.3);
+	transition-duration: 0.25s;
+}
+
+header:hover
+{
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.55);
+}
+
+strong
+{
+	font-size: 100%;
+}
+
+section/* DIT IS DE VOORAL LINKER HELFT VAN HET ARTICLE WAAR DE TEKST VOORAL KOMT.*/
+{
+	position: relative;
+    padding: 5% 0px 5% 5%;
+    width: 90%;
+}
+main/*DIT IS DE CENTER ALS ER MAAR 1 ELEMENT IN HET ARTICLE KOMT ZOALS BIJ DE HOMEPAGE DE INLEIDING ZONDER FOTO'S*/
+{
+	position: relative;
+    padding: 5% 0px 5% 5%;
+    width: 90%;
+}
+article/*DIT IS HET GEHELE STUK ONDER DE BOVENBALK OF MENU. HIERIN STAAT DE CONTENT - IN DE CONTENT DIV STAAN DE ASIDE ELEMENTEN VOOR HET BALANCEREN VAN DIT ARTICLE (FLEX)*/
+{
+	text-align: center;
+	border-radius: 25px;
+	margin: 2% 0% 10% 0%;
+	padding: 0.75% 0% 0% 0%;
+	background-image: url(http://www.solidbackgrounds.com/images/950x350/950x350-nyanza-solid-color-background.jpg);
+	box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.3);
+}
+aside/*DEZE STAAN IN DE CONTENT DIV NAAST DE ARTICLE. ZE ZIJN ONDERDEEL VAN DE FLEX EN KRIMPEN ALS DE PAGINA VERKLEINT ZODAT DE CONTENT NIET ONDUIDELIJK WORD*/
+{
+	width: 125%;
+}
+nav:hover
+{
+	text-decoration: underline;
+}
+nav/*DIT ZIJN DE LINKS DIE OPENKLAPPEN BIJ BIJVOORBEELD DE OVER MIJ OPTIE IN HET MENU*/
+{
+	position: absolute;
+	display: none;
+	font-size: 75%;
+	padding: 2.5px 10px;
+	z-index: +1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.dropbtn {
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+    float: left; clear: left;
+    z-index: +1;
+}
+
+.dropdownItem
+{
+	
+}
+
+.dropdown-content {
+	display: none;
+    position: absolute;
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-flow: row;
+    padding: 15%;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+*/
